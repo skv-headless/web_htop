@@ -1,5 +1,5 @@
-var React = require('react'),
-  mui = require('material-ui');
+var React = require('react');
+var ProgressBar = require('react-bootstrap/ProgressBar');
 
 var Htop = React.createClass({
   displayName: 'Htop',
@@ -23,7 +23,7 @@ var Htop = React.createClass({
     return (
       <div className="cpu">
         {this.state.cpu_load.map(function(percentage) {
-          return (<div>{percentage}</div>)
+          return (<ProgressBar now={percentage} label="%(percent)s%" />)
         })}
       </div>
     );

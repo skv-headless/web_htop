@@ -5,7 +5,7 @@
   "description": "",
   "dependencies": {
     "react": "0.12.x",
-    "material-ui": "0.3.x"
+    "react-bootstrap": "latest"
   },
   "devDependencies": {
     "browserify": "latest",
