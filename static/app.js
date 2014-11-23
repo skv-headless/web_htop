@@ -1,3 +1,6 @@
+var React = require('react'),
+  mui = require('material-ui');
+
 var Htop = React.createClass({
   displayName: 'Htop',
   getInitialState: function() {
