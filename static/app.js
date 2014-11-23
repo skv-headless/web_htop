@@ -4,7 +4,6 @@ var React = require('react'),
 var Htop = React.createClass({
   displayName: 'Htop',
   getInitialState: function() {
-
     setInterval(function() {
       var xhr = new XMLHttpRequest();
       xhr.onreadystatechange = function() {

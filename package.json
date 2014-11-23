@@ -8,10 +8,11 @@
     "material-ui": "0.3.x"
   },
   "devDependencies": {
-    "browserify": "latest"
-  },
-  "scripts": {
-    "build": "browserify --debug -t reactify static/app.js -o static/bundle.js"
+    "browserify": "latest",
+    "watchify": "latest",
+    "grunt": "latest",
+    "grunt-browserify": "latest",
+    "grunt-contrib-watch": "latest"
   }
 }
 
