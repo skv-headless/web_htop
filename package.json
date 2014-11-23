@@ -1,0 +1,17 @@
+{
+  "name": "web_htop",
+  "version": "0.0.1",
+  "author": "Sokovikov Evgenii",
+  "description": "",
+  "dependencies": {
+    "react": "0.12.x",
+    "material-ui": "0.3.x"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  },
+  "scripts": {
+    "build": "browserify --debug -t reactify static/app.js -o static/bundle.js"
+  }
+}
+
