@@ -12,7 +12,8 @@
     "watchify": "latest",
     "grunt": "latest",
     "grunt-browserify": "latest",
-    "grunt-contrib-watch": "latest"
+    "grunt-contrib-watch": "latest",
+    "reactify": "latest"
   }
 }
 
